@@ -1,0 +1,33 @@
+<mat-toolbar class="gradation">
+    <mat-toolbar-row>
+        <button mat-icon-button>
+            <mat-icon>menu</mat-icon>
+        </button>
+        <span>APP</span>
+        <div class="nav">
+            <ul class="nav-content">
+                <li class="nav-item">
+                    <button mat-icon-button>
+                        <mat-icon>settings</mat-icon>
+                    </button>
+                </li>
+                <li class="nav-item">
+                    <button mat-icon-button>
+                        <mat-icon>help_outline</mat-icon>
+                    </button>
+                </li>
+                <li class="nav-item">
+                    <button mat-button [matMenuTriggerFor]="menu">
+                        <mat-icon>person_outline</mat-icon>
+                    </button>
+                    <mat-menu #menu="matMenu">
+                        <button mat-menu-item>
+                            <mat-icon>exit_to_app</mat-icon>
+                            Sign Out
+                        </button>
+                    </mat-menu>
+                </li>
+            </ul>
+        </div>
+    </mat-toolbar-row>
+</mat-toolbar>

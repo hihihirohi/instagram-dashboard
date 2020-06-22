@@ -1,0 +1,23 @@
+ul li {
+    list-style: none;
+}
+
+.gradation {
+    background: linear-gradient(45deg, rgba(254,212,117,1) 0%,rgba(229,61,93,1) 50%,rgba(194,49,134,1) 70%,rgba(156,56,187,1) 100%);
+    color: white;
+}
+
+.nav {
+    margin: 0 0 0 auto;
+    .nav-content {
+        display: flex;
+        justify-content: space-between;
+        .nav-item {
+            margin-left: 10px;
+        }
+    }
+}
+
+.menu-item {
+    margin-top: 3px;
+}
