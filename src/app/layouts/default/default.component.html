@@ -1,6 +1,9 @@
-<app-header></app-header>
+<div>
+    <app-header (toggleSideBarForMe)="sideBarToggle($event)"></app-header>
+</div>
+
 <mat-drawer-container>
-    <mat-drawer mode="side" opened>
+    <mat-drawer mode="side" [opened]="sideBarOpen">
         <app-sidebar></app-sidebar>
     </mat-drawer>
     <mat-drawer-content>
