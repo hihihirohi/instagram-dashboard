@@ -1,26 +1,20 @@
 <mat-nav-list>
-    <div class="profile-card">
-        
-        <div class="header">
-            <h2>hoge</h2>
-            <h4>hoge@hoge</h4>
-        </div>
-        <img src="https://material.angular.io/assets/img/examples/shiba2.jpg" alt="Soufiane FADIL">
-    </div>
+    <h2 class="menu" matSubholder>メインメニュー</h2>
     <mat-divider></mat-divider>
-    <h2 matSubholder>メインメニュー</h2>
-    <mat-divider></mat-divider>
-    <a mat-list-item routeLinkAvtive="list-item-active" routerLink="/">Dashborad</a>
-    <a mat-list-item routeLinkAvtive="list-item-active" routerLink="/posts">Posts</a>
-    <a mat-list-item routeLinkAvtive="list-item-active" routerLink="/articles">Articles</a>
-    <mat-divider></mat-divider>
-    <h2 matSubholder>Tools</h2>
-    <a mat-list-item routeLinkAvtive="list-item-active" routerLink="/contacts">
-        <mat-icon>import_contacts</mat-icon>
-        Contacts
+    <a mat-list-item routeLinkAvtive="list-item-active" routerLink="/">
+        <mat-icon fontSet="fas" fontIcon="fa-chart-area"></mat-icon>
+        ダッシュボード
     </a>
-    <a mat-list-item routeLinkAvtive="list-item-active" routerLink="/contacts">
-        <mat-icon>contacts</mat-icon>
-        Leads
+    <a mat-list-item routeLinkAvtive="list-item-active" routerLink="/account">
+        <mat-icon fontSet="far" fontIcon="fa-user-circle"></mat-icon>
+        アカウント
+    </a>
+    <a mat-list-item routeLinkAvtive="list-item-active" routerLink="/template">
+        <mat-icon fontSet="fas" fontIcon="fa-pencil-alt"></mat-icon>
+        テンプレート
+    </a>
+    <a mat-list-item routeLinkAvtive="list-item-active" routerLink="/offer">
+        <mat-icon fontSet="fas" fontIcon="fa-user-check"></mat-icon>
+        オファー
     </a>
 </mat-nav-list>
