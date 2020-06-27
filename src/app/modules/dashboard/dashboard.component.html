@@ -1,3 +1,13 @@
 <div>
-    <app-widget-area [data]="bigChart"></app-widget-area>
+    <div class="graph">
+        <app-dashborad-graph
+            [areaChartData]="areaChart"
+            [pieChartData]="pieChart">
+        </app-dashborad-graph>
+    </div>
+    <div class="table">
+        <app-dashborad-table
+            [tableData]="tableData">
+        </app-dashborad-table>
+    </div>
 </div>

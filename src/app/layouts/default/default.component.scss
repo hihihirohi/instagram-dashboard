@@ -5,11 +5,14 @@
 }
 
 mat-drawer {
-    width: 350px;
+    width: 200px;
+    background: #2c343c;
+    color: white;
 }
 
 mat-drawer-content {
     padding: 10px;
+    background: aliceblue;
 }
 
 mat-drawer-container {
